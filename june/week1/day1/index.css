@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#head2{
+    background-color: aqua;
+}
+
+.head3{
+    background-color: blueviolet;
+}
+
+h4 ,h5 ,h6 {
+    background-color: burlywood;
+}
+
+p{
+    font-size: 1.3rem;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+}
+
+div:hover{
+    background-color: yellow;
+}
+
+div:active{
+    background-color: cyan;
+}
+
+input:focus{
+    background-color: hotpink;
+}
+
+ul{
+    list-style: disc;
+}
+
+ul li:nth-child(2){
+    background-color: red;
+}
+
+ul li:nth-child(n+3){
+
+}
